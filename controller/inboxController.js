@@ -1,7 +1,5 @@
 function getInbox(req,res,next){
-    res.render('inbox', {
-        title: "Chat-Inbox"
-    })
+    res.render('inbox')
 }
 
 module.exports={
